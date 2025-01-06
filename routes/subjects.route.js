@@ -10,4 +10,4 @@ router.delete('/:idC/subjects/:idS', deleteSubject);
 
  
 
-export default router;
+export default router;  

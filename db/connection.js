@@ -12,7 +12,7 @@ const connectDB = async () => {
       database: process.env.DB_NAME,
       port: process.env.DB_PORT,
     });
-    console.log('Conexión a MySQL exitosa');
+    console.log('Conexión a MySQL exitosa'); 
     return connection;
   } catch (error) {
     console.error('Error al conectar a MySQL:', error);

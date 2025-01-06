@@ -6,6 +6,8 @@ import routerSubjectsOnly from './routes/subjectsOnly.route.js';
 import connectDB from './db/connection.js';
 import cors from 'cors'
 
+
+
 dotenv.config();
 
 const corsOptions = {

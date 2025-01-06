@@ -91,4 +91,4 @@ const Subject = sequelize.define('Subject', {
   Course.hasMany(Subject, { foreignKey: 'curso_id' });
   Subject.belongsTo(Course, { foreignKey: 'curso_id' });
   
-  export default Subject;
+  export default Subject; 
