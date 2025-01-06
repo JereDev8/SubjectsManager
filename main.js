@@ -11,7 +11,7 @@ import cors from 'cors'
 dotenv.config();
 
 const corsOptions = {
-    origin:'http://localhost:5173', // Especifica el origen permitido
+    origin:'https://subjectsmanager.vercel.app/', // Especifica el origen permitido
     methods: 'GET,POST,PUT,DELETE', // Métodos permitidos
     allowedHeaders: 'Content-Type,Authorization', // Encabezados permitidos
   };
